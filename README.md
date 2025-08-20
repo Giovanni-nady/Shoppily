@@ -96,15 +96,15 @@ A modern React Native Expo e-commerce application with product browsing, cart ma
 \`\`\`
 src/
 ├── context/
-│   ├── CartContext.js      # Shopping cart state management
-│   └── ThemeContext.js     # Dark/light theme management
+│   ├── CartContext.ts      # Shopping cart state management
+│   └── ThemeContext.ts     # Dark/light theme management
 ├── data/
-│   └── mockProducts.js     # Mock product data and API simulation
+│   └── mockProducts.ts     # Mock product data and API simulation
 ├── screens/
-│   ├── ProductListScreen.js    # Product catalog with grid layout
-│   ├── ProductDetailScreen.js  # Detailed product view
-│   └── CartScreen.js          # Shopping cart management
-└── App.js                     # Main app component with navigation
+│   ├── ProductListScreen.tsx    # Product catalog with grid layout
+│   ├── ProductDetailScreen.tsx  # Detailed product view
+│   └── CartScreen.tsx          # Shopping cart management
+└── App.tsx                     # Main app component with navigation
 \`\`\`
 
 ## Key Design Decisions
